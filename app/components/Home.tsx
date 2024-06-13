@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Home = () => {
   return (
-    <div className="background h-screen">
+    <div className="background h-screen w-full">
         <div>
             <Navbar />
             <div className='flex flex-col text-center translate-y-40'>

@@ -5,7 +5,7 @@ const Sponsors = () => {
   return (
     <div className='sponsors h-screen w-full'>
         <div className='flex justify-center items-center translate-y-64'>
-            <div className="card1 h-[40vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold">
+            <div className="card1 min-h-[40vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold">
                 <div className='flex flex-col gap-2'>
                     <h1 className='text-4xl'>Brought to you by: </h1>
                     <h1 className='text-4xl font-extrabold'>Shaheed Sukhdev College of Business Studies</h1>

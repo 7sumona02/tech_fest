@@ -3,6 +3,19 @@ import About from './components/About'
 import Sponsors from './components/Sponsors'
 import Domains from './components/Domains'
 import Themes from './components/Themes'
+import TimeLine from './components/TimeLine'
+import Prize from './components/Prize'
+import Faq from './components/Faq'
+import 'leaflet/dist/leaflet.css';
+import { MapContainer, TileLayer } from 'react-leaflet';
+import Map from './components/Map';
+import EventTimeline from './components/EventTimeline'
+
+interface MapProps {
+  center: [number, number];
+  zoom: number;
+  scrollWheelZoom: boolean;
+}
 
 const page = () => {
   return (
@@ -12,6 +25,11 @@ const page = () => {
       <Sponsors />
       <Domains />
       <Themes />
+      <Prize />
+      <TimeLine />
+      <Map center={[28.644800, 77.216721]} zoom={13} scrollWheelZoom={true} />
+      <EventTimeline />
+      <Faq />
     </div>
   )
 }

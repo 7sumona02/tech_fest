@@ -2,14 +2,14 @@ import React from 'react'
 
 const Themes = () => {
   return (
-    <div className='bg-black h-screen w-full flex justify-center items-center'>
+    <div className='bg-black h-screen w-full flex justify-center items-center pt-24'>
         <div>
             <h1 className='text-4xl font-bold text-center text-zinc-200 -translate-y-44'>Themes</h1>
             <div className='-translate-y-44 flex flex-col justify-center items-center'>
                 <div className='w-44 h-2 bg-violet-600 rounded-full -rotate-2'></div>
                 <div className='w-44 h-2 bg-pink-600 rounded-full -rotate-2'></div>
             </div>
-        <div className="container">
+        <div className="container -translate-y-12">
   <div data-text="Finance" className="glass -rotate-12">
     <svg viewBox="0 0 496 512" height="1em" xmlns="http://www.w3.org/2000/svg">
       <path

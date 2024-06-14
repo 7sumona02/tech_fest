@@ -80,10 +80,7 @@
   box-shadow: none;
 }
 
-.card:hover {
-box-shadow:  10px 10px 20px #32323234,
-             10px 10px 20px #ffffff11;
-}
+
 
 
 .sponsors{
@@ -178,4 +175,6 @@ box-shadow:  10px 10px 20px #32323234,
   font-size: 2.5em;
   fill: #fff;
 }
+
+
 

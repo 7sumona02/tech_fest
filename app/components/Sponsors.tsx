@@ -7,40 +7,40 @@ const Sponsors = () => {
         <div className='flex justify-center items-center translate-y-64'>
             <div className="card1 min-h-[40vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold">
                 <div className='flex flex-col gap-2'>
-                    <h1 className='text-4xl'>Brought to you by: </h1>
-                    <h1 className='text-4xl font-extrabold'>Shaheed Sukhdev College of Business Studies</h1>
+                    <h1 className='text-3xl text-pink-600'>Brought to you by: </h1>
+                    <h1 className='text-xl font-extrabold'>Shaheed Sukhdev College of Business Studies</h1>
                     
-                    <h1 className='text-4xl'>Department of Computer Science</h1>
-                    <div className='w-80 h-2 bg-violet-600 rounded-full -rotate-2 -translate-y-2 translate-x-[13.2vw]'></div>
-                    <div className='w-80 h-2 bg-pink-600 rounded-full -rotate-2 -translate-y-4 translate-x-[13.4vw]'></div>
+                    <h1 className='text-xl'>Department of Computer Science</h1>
+                    <div className='w-40 h-2 bg-violet-600 rounded-full -rotate-2 -translate-y-3 translate-x-[11vw]'></div>
+                    <div className='w-40 h-2 bg-pink-600 rounded-full -rotate-2 -translate-y-6 translate-x-[11.5vw]'></div>
                 </div>
                 <div className='flex items-center gap-10 pt-10'>
                     <div className='flex flex-col gap-4 justify-center items-center'>
                         <Image
                             src="/Chromebook.png"
-                            width={180}
-                            height={180}
+                            width={150}
+                            height={150}
                             alt="logo"
                         />
-                        <p className='text-xl font-semibold'>Chromebook</p>
+                        <p className=' font-semibold'>Chromebook</p>
                     </div>
                     <div className='flex flex-col gap-2 justify-center items-center'>
                     <Image
                             src="/Playstation.png"
-                            width={50}
-                            height={50}
+                            width={40}
+                            height={40}
                             alt="logo" className='invert'
                         />
-                        <p className='text-xl font-semibold'>PlayStation</p>
+                        <p className=' font-semibold'>PlayStation</p>
                     </div>
                     <div className='flex flex-col gap-2 justify-center items-center'>
                     <Image
                             src="/Playstation.png"
-                            width={50}
-                            height={50}
+                            width={40}
+                            height={40}
                             alt="logo" className='invert'
                         />
-                        <p className='text-xl font-semibold'>PlayStation</p>
+                        <p className='font-semibold'>PlayStation</p>
                     </div>
                 </div>
             </div>

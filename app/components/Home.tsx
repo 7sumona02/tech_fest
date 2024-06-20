@@ -8,9 +8,9 @@ import Link from 'next/link'
 const Home = () => {
   return (
     <div className="background h-screen w-full">
-        <div>
+        <div className='-translate-y-20'>
             <Navbar />
-            <div className='flex flex-col text-center translate-y-40'>
+            <div className='flex flex-col text-center pt-1'>
                 <h1 className='text-[80px] font-bold text-purple-700'>HACKATHON</h1>
                 <div className='flex flex-col gap-3 translate-y-2'>
                     <h2 className='text-xl font-medium text-white'>HACK-IN-FINITE TIME</h2>
@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col justify-center items-center gap-4 translate-y-56'>
+            <div className='flex flex-col justify-center items-center gap-4 translate-y-32'>
               <div>
 
               <Link href="https://react-icons.github.io/react-icons/search/#q=link"><button
@@ -49,7 +49,7 @@ const Home = () => {
             </div>
 
             <div>
-              <div className='pt-[50vh] text-white'>
+              <div className='pt-[34vh] text-white'>
                 <Countdown />
               </div>
               <h1 className="text-2xl text-center text-white pt-6">REMAINING!</h1>

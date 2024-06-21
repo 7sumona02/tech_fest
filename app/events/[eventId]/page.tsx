@@ -7,7 +7,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
   const record = Records.find(r => r.id === parseInt(params.eventId));
 
   if (!record) {
-    return <div>No record found for the given eventId.</div>;
+    return <div>No record found for the given eventId</div>;
   }
 
   return (

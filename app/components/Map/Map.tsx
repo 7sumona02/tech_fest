@@ -11,7 +11,11 @@ interface MapProps {
   scrollWheelZoom: boolean;
 }
 
-const MapContext = createContext<MapProps>({});
+const MapContext = createContext<MapProps>({
+  center: [0,0],
+  zoom: 0,
+  scrollWheelZoom: false
+});
 
 const Map: React.FC<MapProps> = ({ center, zoom, scrollWheelZoom }) => {
   return (
@@ -21,7 +25,7 @@ const Map: React.FC<MapProps> = ({ center, zoom, scrollWheelZoom }) => {
             <div className='w-36 h-2 bg-violet-600 rounded-full -rotate-2'></div>
             <div className='w-36 h-2 bg-pink-600 rounded-full -rotate-2'></div>
         </div>
-        <MapContext.Provider value={{ center, zoom, scrollWheelZoom }} className="text-white">
+        <MapContext.Provider value={{ center, zoom, scrollWheelZoom }}>
       <div className="h-[60vh] w-[25vw]">
         <MapContainer
           center={center}

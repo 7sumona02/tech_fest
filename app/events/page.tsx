@@ -11,6 +11,8 @@ import Footer from '../components/Footer';
 const Page = () => {
   return (
     <div className='bg-black h-screen w-screen flex flex-col justify-center items-center events pt-10'>
+                <RetroGrid className=' w-[200vw] h-screen absolute -top-0' />
+
       <Link href='/'>
         <Footer />
       </Link>
@@ -19,7 +21,6 @@ const Page = () => {
         Events
       </span>
  
-      <RetroGrid />
       </div>
       <div className='-translate-y-16'>
         <MagicContainer
@@ -31,6 +32,7 @@ const Page = () => {
           borderWidth={10}
           className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden bg-[radial-gradient(var(--mask-size)_circle_at_var(--mouse-x)_var(--mouse-y),#ffaa40_0,#9c40ff_50%,transparent_100%)] p-20 shadow-2xl"
         >
+
           <Link href='/events/1'>
             <p className="z-10 whitespace-nowrap text-4xl font-medium text-gray-800 dark:text-gray-200">
             Event 1
@@ -66,7 +68,7 @@ const Page = () => {
         <VelocityScroll
         text="Register now"
         default_velocity={5}
-        className="bg-black font-display text-center text-2xl font-bold tracking-[-0.02em] w-full text-[#ff2975] drop-shadow-sm dark:text-white md:text-4xl md:leading-[3rem]"
+        className=" font-display text-center text-2xl font-bold tracking-[-0.02em] w-full text-[#ff2975] drop-shadow-sm dark:text-white md:text-4xl md:leading-[3rem]"
         />
       </div>
     </div>

@@ -81,6 +81,10 @@ const config = {
             transform: "translateZ(0) rotate(360deg)",
           },
         },
+        grid: {
+          "0%": { transform: "translateY(-50%)" },
+          "100%": { transform: "translateY(0)" },
+        },
         slide: {
           to: {
             transform: "translate(calc(100cqw - 100%), 0)",
@@ -92,6 +96,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        grid: "grid 15s linear infinite",
       },
     },
   },

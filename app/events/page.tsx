@@ -6,11 +6,15 @@ import {
 } from "@/components/magicui/magic-card";
 import Link from 'next/link';
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
+import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div className='bg-black h-screen w-screen flex flex-col justify-center items-center'>
-      <div className="relative flex  items-center justify-center overflow-hidden rounded-lg p-20 bg-background md:shadow-xl">
+    <div className='bg-black h-screen w-screen flex flex-col justify-center items-center events pt-10'>
+      <Link href='/'>
+        <Footer />
+      </Link>
+      <div className="relative flex  items-center justify-center overflow-hidden rounded-lg p-20 bg-background md:shadow-xl bg-black">
       <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-16">
         Events
       </span>
@@ -58,7 +62,7 @@ const Page = () => {
         </MagicContainer>
       </div>
 
-      <div className='translate-y-16 mb-0'>
+      <div className='translate-y-12 pb-10'>
         <VelocityScroll
         text="Register now"
         default_velocity={5}

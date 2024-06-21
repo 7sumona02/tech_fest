@@ -1,180 +1,332 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-.background{
-  background-image: url('/Background.svg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
 
-.register {
-  --green: rgb(177, 49, 250);
-  letter-spacing: 0.06em;
-  position: relative;
-  font-family: inherit;
-  border-radius: 0.6em;
-  overflow: hidden;
-  transition: all 0.3s;
-  line-height: 1.4em;
-  border: 2px solid var(--green);
-  background: linear-gradient(to right, rgba(179, 3, 255, 0.1) 1%, transparent 40%,transparent 60% , rgba(245, 27, 253, 0.1) 100%);
-  color: var(--green);
-  box-shadow: inset 0 0 10px rgba(234, 27, 253, 0.4), 0 0 9px 3px rgba(238, 27, 253, 0.1);
-}
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
 
-.register:hover {
-  color: #b131fa;
-  box-shadow: inset 0 0 10px rgba(242, 27, 253, 0.6), 0 0 9px 3px rgba(193, 27, 253, 0.2);
-}
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
 
-.register:before {
-  content: "";
-  position: absolute;
-  left: -4em;
-  width: 4em;
-  height: 100%;
-  top: 0;
-  transition: transform .4s ease-in-out;
-  background: linear-gradient(to right, transparent 1%, rgba(193, 27, 253, 0.1) 40%,rgba(185, 27, 253, 0.1) 60% , transparent 100%);
-}
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
 
-.register:hover:before {
-  transform: translateX(15em);
-}
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
 
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
 
-.brochure {
-  background: rgba(255,255,255,.05);
-  box-shadow: 0 0 10px rgba(0,0,0,0.25);
-  backdrop-filter: blur(10px);
-  border-radius: 8px;
-}
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
 
-.time {
-  color: rgba(255, 255, 255, 0.692);
-  padding: 10px 15px;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.166);
-  background: rgba(255, 255, 255, 0.068);
-  overflow: hidden;
-  gap: 8px;
-  border-radius: 5px;
-  margin: 0 5px;
-  transition: 0.2s;
-  border: 1px solid transparent;
-}
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
 
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
 
-.card {
-  color: rgba(255, 255, 255, 0.692);
-  background: rgba(255, 255, 255, 0.068);
-  border-radius: 40px;
-  margin: 0 5px;
-  transition: 0.2s;
-  border: 1px solid transparent;
-}
+      --radius: 0.5rem;
+    }
 
-.card:active {
-  transform: translateY(2px);
-  box-shadow: none;
-}
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
 
 
+  .background{
+    background-image: url('/Background.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .register {
+    --green: rgb(177, 49, 250);
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(179, 3, 255, 0.1) 1%, transparent 40%,transparent 60% , rgba(245, 27, 253, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(234, 27, 253, 0.4), 0 0 9px 3px rgba(238, 27, 253, 0.1);
+  }
+  
+  .register:hover {
+    color: #b131fa;
+    box-shadow: inset 0 0 10px rgba(242, 27, 253, 0.6), 0 0 9px 3px rgba(193, 27, 253, 0.2);
+  }
+  
+  .register:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(193, 27, 253, 0.1) 40%,rgba(185, 27, 253, 0.1) 60% , transparent 100%);
+  }
+  
+  .register:hover:before {
+    transform: translateX(15em);
+  }
+  
+  
+  .brochure {
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .time {
+    color: rgba(255, 255, 255, 0.692);
+    padding: 10px 15px;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.166);
+    background: rgba(255, 255, 255, 0.068);
+    overflow: hidden;
+    gap: 8px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+  }
+  
+  
+  .card {
+    color: rgba(255, 255, 255, 0.692);
+    background: rgba(255, 255, 255, 0.068);
+    border-radius: 40px;
+    margin: 0 5px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+  }
+  
+  .card:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
+  
+  
+  
+  .sponsors{
+    background-image: url('/Sponsors.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .card1 {
+    color: rgba(255, 255, 255, 0.692);
+    background: rgba(255, 255, 255, 0.068);
+    border-radius: 40px;
+    margin: 0 5px;
+    transition: 0.2s;
+    border: 1px solid transparent;
+  }
+  
+  .card1:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
+  
+  .domains{
+    color: rgba(255, 255, 255, 0.692);
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transform-origin: right bottom;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .domains:hover {
+    rotate: 8deg;
+  }
+  
+  .domainbg{
+    background-image: url('/Domains.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container .glass {
+    position: relative;
+    width: 280px;
+    height: 300px;
+    background: linear-gradient(#fff2, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -45px;
+    backdrop-filter: blur(10px);
+    transform: rotate(calc(var(--r) * 1deg));
+  }
+  
+  .container:hover .glass {
+    transform: rotate(0deg);
+    margin: 0 10px;
+  }
+  
+  .container .glass::before {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .container .glass svg {
+    font-size: 2.5em;
+    fill: #fff;
+  }
 
 
-.sponsors{
-  background-image: url('/Sponsors.svg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
+  /* event register button */
+  .event {
+background: radial-gradient(50% 50% at 50% 50%, #A47CF3 0%, #683FEA 100%);
+box-shadow: 0px 0px 180px #9917FF, 0px 0px 1px 4px rgba(255, 255, 255, 0.1), inset 0px -4px 2px rgba(0, 0, 0, 0.25), inset 0px 2px 1px rgba(255, 255, 255, 0.25);
+border-radius: 29.4545px;
+  }
 
-.card1 {
-  color: rgba(255, 255, 255, 0.692);
-  background: rgba(255, 255, 255, 0.068);
-  border-radius: 40px;
-  margin: 0 5px;
-  transition: 0.2s;
-  border: 1px solid transparent;
-}
-
-.card1:active {
-  transform: translateY(2px);
-  box-shadow: none;
-}
-
-
-.domains{
-  color: rgba(255, 255, 255, 0.692);
-  background: linear-gradient(#212121, #212121) padding-box,
-              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
-  border: 2px solid transparent;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  transform-origin: right bottom;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-}
-
-.domains:hover {
-  rotate: 8deg;
-}
-
-.domainbg{
-  background-image: url('/Domains.svg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-
-.container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container .glass {
-  position: relative;
-  width: 280px;
-  height: 300px;
-  background: linear-gradient(#fff2, transparent);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
-  border-radius: 10px;
-  margin: 0 -45px;
-  backdrop-filter: blur(10px);
-  transform: rotate(calc(var(--r) * 1deg));
-}
-
-.container:hover .glass {
-  transform: rotate(0deg);
-  margin: 0 10px;
-}
-
-.container .glass::before {
-  content: attr(data-text);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.05);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-.container .glass svg {
-  font-size: 2.5em;
-  fill: #fff;
-}
+  .event:hover {
+    transform: translateY(-2px);
+   }
 
 
 
+   .spinner {
+    width: 44px;
+    height: 44px;
+    animation: spinner-y0fdc1 2s infinite ease;
+    transform-style: preserve-3d;
+   }
+   
+   .spinner > div {
+    background-color: rgba(255, 41, 117,0.2);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border: 2px solid #ff2975;
+   }
+   
+   .spinner div:nth-of-type(1) {
+    transform: translateZ(-22px) rotateY(180deg);
+   }
+   
+   .spinner div:nth-of-type(2) {
+    transform: rotateY(-270deg) translateX(50%);
+    transform-origin: top right;
+   }
+   
+   .spinner div:nth-of-type(3) {
+    transform: rotateY(270deg) translateX(-50%);
+    transform-origin: center left;
+   }
+   
+   .spinner div:nth-of-type(4) {
+    transform: rotateX(90deg) translateY(-50%);
+    transform-origin: top center;
+   }
+   
+   .spinner div:nth-of-type(5) {
+    transform: rotateX(-90deg) translateY(50%);
+    transform-origin: bottom center;
+   }
+   
+   .spinner div:nth-of-type(6) {
+    transform: translateZ(22px);
+   }
+   
+   @keyframes spinner-y0fdc1 {
+    0% {
+     transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+    }
+   
+    50% {
+     transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+    }
+   
+    100% {
+     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+    }
+   }
+
+   .landing{
+    overflow-y: hidden;
+    overflow-x: hidden;
+   }
+
+   .events{
+    overflow-y: hidden;
+    overflow-x: hidden;
+   }

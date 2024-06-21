@@ -7,7 +7,8 @@ import Link from 'next/link'
 
 const Home = () => {
   return (
-    <div className="background h-screen w-full">
+    <div id='home'>
+      <div className="background h-screen w-full">
         <div className='-translate-y-20'>
             <Navbar />
             <div className='flex flex-col text-center pt-1'>
@@ -55,6 +56,7 @@ const Home = () => {
               <h1 className="text-2xl text-center text-white pt-6">REMAINING!</h1>
             </div>
         </div>
+      </div>
     </div>
   )
 }

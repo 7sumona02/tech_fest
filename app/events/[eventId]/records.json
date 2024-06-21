@@ -1,0 +1,161 @@
+[
+    {   
+        "id": 1,
+        "name": "KillCode",
+        "guidelines": {
+          "studentEligibility": "Students can be from the same institute or different institutions",
+          "eventType": "Hybrid (Online/Offline)",
+          "eventDates": "13th April -15th April 2024",
+          "teamSize": "1-3 members",
+          "timings": "1 PM to 3 PM",
+          "venue": "First Floor CSE lab 2 (Kushumpur Block)"
+        },
+        "rules": [
+          "You can either participate in the event alone or as a team with a maximum of 3 participants.",
+          "Students from different educational institutes can form a team. Any students with valid Student identity cards from their respective educational institutes are eligible to participate.",
+          "Any disruptive/suspicious behavior will lead to instant disqualification.",
+          "Use of any paid third-party templates, themes, or frameworks is prohibited.",
+          "Use of platforms like wix.com, wordpress is prohibited.",
+          "No kind of plagiarism will be tolerated. The decision on the disqualification will be made by our judges and will be final.",
+          "Sharing of codes/answers will result in instant disqualification of the teams involved in this activity."
+        ],
+        "structure": {
+          "round1": {
+            "name": "Online Quiz",
+            "duration": "15 minutes",
+            "description": "A 30-minute online quiz on Unstop containing 30 web development-related questions. Scoring will be based on correct answers. In case of a tie, the time taken to complete the quiz will be considered. The number of question attempts will also be a factor."
+          },
+          "finalRound": {
+            "name": "Web Design",
+            "location": "offline at lab 2",
+            "description": "Participants will build a functional webpage using HTML, CSS, and JavaScript. The design for the webpage will be revealed on the spot."
+          }
+        },
+        "judgingCriteria": [
+          "Rank will be based on the Web page Design and the overall performance",
+          "Color palette/fonts used",
+          "Efficiency",
+          "Relevance of the design with theme",
+          "Consistency and visual appeal of the website"
+        ],
+        "prizes": [
+          "All participants will receive participation certificates",
+          "1st Prize: Cash prize of Rs. 1,500 and a Certificate of Achievement",
+          "2nd Prize: Cash prize of Rs. 1,000 and a Certificate of Achievement",
+          "3rd Prize: Cash prize of Rs. 500 and a Certificate of Achievement"
+        ],
+        "importantNote": [
+          "Participants are allowed to bring their own laptops or can use Lab2 for Round 3.",
+          "Personal laptops can only be used without the Internet.",
+          "Coding is to be done without internet access.",
+          "Participants are free to use VS Code or Notepad.",
+          "Food and beverages will not be provided during the event. Participants are advised to bring their own refreshments."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "DesignStorm",
+        "guidelines": {
+          "studentEligibility": "Students can be from the same institute or different institutions",
+          "eventType": "Hybrid (Online/Offline)",
+          "eventDates": "13th April -15th April 2024",
+          "teamSize": "1-3 members",
+          "timings": "1 PM to 3 PM",
+          "venue": "First Floor CSE lab 2 (Kushumpur Block)"
+        },
+        "rules": [
+          "You can either participate in the event alone or as a team with a maximum of 3 participants.",
+          "Students from different educational institutes can form a team. Any students with valid Student identity cards from their respective educational institutes are eligible to participate.",
+          "Any disruptive/suspicious behavior will lead to instant disqualification.",
+          "Use of any paid third-party templates, themes, or frameworks is prohibited.",
+          "Use of platforms like wix.com, wordpress is prohibited.",
+          "No kind of plagiarism will be tolerated. The decision on the disqualification will be made by our judges and will be final.",
+          "Sharing of codes/answers will result in instant disqualification of the teams involved in this activity."
+        ],
+        "structure": {
+          "round1": {
+            "name": "Online Quiz",
+            "duration": "15 minutes",
+            "description": "A 30-minute online quiz on Unstop containing 30 web development-related questions. Scoring will be based on correct answers. In case of a tie, the time taken to complete the quiz will be considered. The number of question attempts will also be a factor."
+          },
+          "finalRound": {
+            "name": "Web Design",
+            "location": "offline at lab 2",
+            "description": "Participants will build a functional webpage using HTML, CSS, and JavaScript. The design for the webpage will be revealed on the spot."
+          }
+        },
+        "judgingCriteria": [
+          "Rank will be based on the Web page Design and the overall performance",
+          "Color palette/fonts used",
+          "Efficiency",
+          "Relevance of the design with theme",
+          "Consistency and visual appeal of the website"
+        ],
+        "prizes": [
+          "All participants will receive participation certificates",
+          "1st Prize: Cash prize of Rs. 1,500 and a Certificate of Achievement",
+          "2nd Prize: Cash prize of Rs. 1,000 and a Certificate of Achievement",
+          "3rd Prize: Cash prize of Rs. 500 and a Certificate of Achievement"
+        ],
+        "importantNote": [
+          "Participants are allowed to bring their own laptops or can use Lab2 for Round 3.",
+          "Personal laptops can only be used without the Internet.",
+          "Coding is to be done without internet access.",
+          "Participants are free to use VS Code or Notepad.",
+          "Food and beverages will not be provided during the event. Participants are advised to bring their own refreshments."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "CodersNight",
+        "guidelines": {
+          "studentEligibility": "Students can be from the same institute or different institutions",
+          "eventType": "Hybrid (Online/Offline)",
+          "eventDates": "13th April -15th April 2024",
+          "teamSize": "1-3 members",
+          "timings": "1 PM to 3 PM",
+          "venue": "First Floor CSE lab 2 (Kushumpur Block)"
+        },
+        "rules": [
+          "You can either participate in the event alone or as a team with a maximum of 3 participants.",
+          "Students from different educational institutes can form a team. Any students with valid Student identity cards from their respective educational institutes are eligible to participate.",
+          "Any disruptive/suspicious behavior will lead to instant disqualification.",
+          "Use of any paid third-party templates, themes, or frameworks is prohibited.",
+          "Use of platforms like wix.com, wordpress is prohibited.",
+          "No kind of plagiarism will be tolerated. The decision on the disqualification will be made by our judges and will be final.",
+          "Sharing of codes/answers will result in instant disqualification of the teams involved in this activity."
+        ],
+        "structure": {
+          "round1": {
+            "name": "Online Quiz",
+            "duration": "15 minutes",
+            "description": "A 30-minute online quiz on Unstop containing 30 web development-related questions. Scoring will be based on correct answers. In case of a tie, the time taken to complete the quiz will be considered. The number of question attempts will also be a factor."
+          },
+          "finalRound": {
+            "name": "Web Design",
+            "location": "offline at lab 2",
+            "description": "Participants will build a functional webpage using HTML, CSS, and JavaScript. The design for the webpage will be revealed on the spot."
+          }
+        },
+        "judgingCriteria": [
+          "Rank will be based on the Web page Design and the overall performance",
+          "Color palette/fonts used",
+          "Efficiency",
+          "Relevance of the design with theme",
+          "Consistency and visual appeal of the website"
+        ],
+        "prizes": [
+          "All participants will receive participation certificates",
+          "1st Prize: Cash prize of Rs. 1,500 and a Certificate of Achievement",
+          "2nd Prize: Cash prize of Rs. 1,000 and a Certificate of Achievement",
+          "3rd Prize: Cash prize of Rs. 500 and a Certificate of Achievement"
+        ],
+        "importantNote": [
+          "Participants are allowed to bring their own laptops or can use Lab2 for Round 3.",
+          "Personal laptops can only be used without the Internet.",
+          "Coding is to be done without internet access.",
+          "Participants are free to use VS Code or Notepad.",
+          "Food and beverages will not be provided during the event. Participants are advised to bring their own refreshments."
+        ]
+    }
+]

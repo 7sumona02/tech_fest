@@ -10,6 +10,7 @@ import Faq from './components/Faq'
 import Footer from './components/Footer';
 import EventTimeline from './components/EventTimeline'
 import Link from 'next/link'
+import { Grid } from './components/Grid'
 
 
 interface MapProps {
@@ -47,6 +48,7 @@ const page = () => {
       <Link href='#home'>
         <Footer />
       </Link>
+      <Grid />
     </div>
   )
 }

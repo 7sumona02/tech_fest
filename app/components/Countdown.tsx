@@ -9,16 +9,10 @@ interface Props {
 
 function MyTimer(props: Props) {
   const {
-    totalSeconds,
     seconds,
     minutes,
     hours,
     days,
-    isRunning,
-    start,
-    pause,
-    resume,
-    restart,
   } = useTimer({ expiryTimestamp: props.expiryTimestamp, onExpire: () => console.warn('Hackathon starts now!') });
 
   return (
@@ -41,8 +35,9 @@ interface Props {
 }
 
 function App() {
-  const time = new Date();
-  time.setSeconds(time.getSeconds() + 172800); // 2 days in seconds
+  const time = new Date(2024,7,31,23,59,59);
+  // console.log(time);
+  time.setSeconds(time.getSeconds()); // 2 days in seconds
   return (
     <div>
       <MyTimer expiryTimestamp={time} />

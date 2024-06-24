@@ -10,14 +10,14 @@ import Footer from '../components/Footer';
 
 const Page = () => {
   return (
-    <div className='bg-black h-full w-full flex flex-col justify-center items-center pt-10 events'>
+    <div className='bg-black fixed h-screen w-full flex flex-col justify-center items-center  events select-none'>
                 <RetroGrid className=' w-full h-full' />
 
-      <Link href='/'>
+      <Link href='/' className=' translate-y-16'>
         <Footer />
       </Link>
       <div className="relative flex  items-center justify-center overflow-hidden rounded-lg p-20 md:shadow-xl bg-transparent">
-      <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-16">
+      <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-20">
         Events
       </span>
  
@@ -141,11 +141,11 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='-translate-y-8 pb-10'>
+      <div className='-translate-y-8 '>
         <VelocityScroll
         text="Register now"
         default_velocity={5}
-        className=" font-display text-center text-2xl font-bold tracking-[-0.02em] w-full text-[#ff2975] drop-shadow-sm dark:text-white md:text-4xl md:leading-[3rem]"
+        className=" font-display text-center text-3xl font-bold tracking-[-0.02em] w-full text-[#ff2975] drop-shadow-sm dark:text-white  md:leading-[3rem]"
         />
       </div>
     </div>

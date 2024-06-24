@@ -11,7 +11,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
   }
 
   return (
-    <div className="h-full w-full bg-black bg-grid-white/[0.1] relative flex items-center justify-center eventpage">
+    <div className="  relative w-full bg-black bg-grid-white/[0.1]  flex items-center justify-center eventpage">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       <div className='h-full w-full text-white flex flex-col gap-10 items-center justify-center text-2xl pt-16 pb-20'>
 
@@ -20,7 +20,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
         </Link>
 
         <div>
-          <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[rgb(255,211,25)] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-16">
+          <span className=" select-none pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[rgb(255,211,25)] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-16">
           {record.name}
           </span>
         </div>

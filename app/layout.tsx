@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import { Pixelify_Sans } from "next/font/google";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
+const pixelify = Pixelify_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={spaceGrotesk.className}>
+      <body className={pixelify.className}>
         {children}
       </body>
     </html>

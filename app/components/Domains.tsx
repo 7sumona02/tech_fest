@@ -2,7 +2,8 @@ import React from 'react'
 
 const Domains = () => {
   return (
-    <div className='domainbg bg-black h-screen w-full flex flex-col justify-center items-center pt-24'>
+    <div className='sm:pt-32 md:pt-0'>
+        <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-24'>
         <h1 className='text-4xl font-bold text-center text-zinc-200 -translate-y-44'>Domains</h1>
         <div className='-translate-y-[180px]'>
             <div className='w-44 h-2 bg-violet-600 rounded-full -rotate-2'></div>
@@ -31,18 +32,7 @@ const Domains = () => {
                 <p className="heading text-3xl text-center">Gaming</p>
                 </div>
             </div>
-            
-            {/* <div className="domains w-[20vw] h-[15vh] text-white flex justify-center items-center px-10 py-10">
-                <div className="header">
-                </div>
-                <p className="heading text-3xl text-center">AR/VR</p>
-            </div>
-
-            <div className="domains w-[20vw] h-[15vh] text-white flex justify-center items-center px-10 py-10">
-                <div className="header">
-                </div>
-                <p className="heading text-3xl text-center">Web3</p>
-            </div> */}
+        </div>
         </div>
     </div>
   )

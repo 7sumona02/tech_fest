@@ -345,7 +345,6 @@ border-radius: 29.4545px;
     background: #29292c;
     border-radius: 1rem;
     overflow: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
     --color: #32a6ff
@@ -423,3 +422,17 @@ border-radius: 29.4545px;
   .notification:hover .notiborderglow {
     opacity: 0.1
   }
+
+  /* custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f3eff7;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #8c1eff;
+  }
+  

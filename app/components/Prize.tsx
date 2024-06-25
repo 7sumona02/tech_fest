@@ -8,7 +8,7 @@ const Prize = () => {
             <div className='w-48 h-2 bg-violet-600 rounded-full -rotate-2'></div>
             <div className='w-48 h-2 bg-pink-600 rounded-full -rotate-2'></div>
         </div>
-        <div className='card min-h-[40vh] w-[30vw] px-10 py-6'>
+        <div className='card md:min-h-[40vh] sm:w-[50vw] md:w-[30vw] px-10 py-6'>
             <h1 className='text-3xl font-bold text-pink-600'>70,000 INR Prize Pool</h1>
             <div className='pt-4 flex flex-col gap-4'>
                 <div>

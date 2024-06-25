@@ -38,7 +38,7 @@ const Themes = () => {
       ></path>
     </svg>
   </div>
-</div>
+        </div>
 
         </div>
     </div>

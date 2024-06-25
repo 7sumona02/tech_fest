@@ -2,15 +2,15 @@ import React from 'react'
 
 const EventTimeline = () => {
   return (
-    <div className='bg-black h-screen w-full flex flex-col justify-center items-center'>
+    <div className='bg-black h-screen w-full flex flex-col justify-center items-center  sm:pt-32 md:pt-0'>
         <div>
-            <h1 className='text-4xl font-bold text-center text-zinc-200 -translate-y-44'>Timeline</h1>
-            <div className='-translate-y-44 flex flex-col justify-center items-center'>
+            <h1 className='text-4xl font-bold text-center text-zinc-200'>Timeline</h1>
+            <div className='flex flex-col justify-center items-center'>
                 <div className='w-44 h-2 bg-violet-600 rounded-full -rotate-2'></div>
                 <div className='w-44 h-2 bg-pink-600 rounded-full -rotate-2'></div>
             </div>
         </div>
-        <div className='-translate-y-20'>
+        <div className='translate-y-20'>
         <ul className="timeline timeline-vertical">
   <li>
     <div className="timeline-start text-white">8:30 AM</div>

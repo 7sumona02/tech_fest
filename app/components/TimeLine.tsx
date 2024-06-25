@@ -5,8 +5,8 @@ const Timeline = () => {
     <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-32'>
       <h1 className='text-4xl font-bold text-center text-zinc-200 -translate-y-20'>Important Dates</h1>
         <div className='-translate-y-[80px]'>
-            <div className='w-72 h-2 bg-violet-600 rounded-full -rotate-2'></div>
-            <div className='w-72 h-2 bg-pink-600 rounded-full -rotate-2'></div>
+            <div className='w-80 h-2 bg-violet-600 rounded-full -rotate-2'></div>
+            <div className='w-80 h-2 bg-pink-600 rounded-full -rotate-2'></div>
         </div>
         <div className='card py-10'>
         <ul className="timeline timeline-vertical -translate-x-24">

@@ -15,7 +15,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       <div className='h-full w-full text-white flex flex-col gap-10 items-center justify-center text-2xl pt-16 pb-20'>
 
-        <Link href='/' className='md:pr-5 sm:pr-14'>
+        <Link href='/' className='md:pr-5 pr-14'>
           <Footer />
         </Link>
 
@@ -27,94 +27,38 @@ const Page = ({ params }: { params: { eventId: string } }) => {
 
         <div className='flex flex-col justify-center  items-center gap-16 text-white max-w-[40vw] pt-10'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Guidelines</h1>
-            {typeof record.guidelines === 'object' ? (
-              <ul className='list-disc list-inside text-lg'>
-                <li>{record.guidelines.studentEligibility}</li>
-                <li>{record.guidelines.eventType}</li>
-                <li>{record.guidelines.eventDates}</li>
-                <li>{record.guidelines.teamSize}</li>
-                <li>{record.guidelines.timings}</li>
-                <li>{record.guidelines.venue}</li>
-              </ul>
-            ) : (
-              <p className='text-lg'>{record.guidelines}</p>
-            )}
+            <h1 className='text-2xl text-[#ff2975]'>Description</h1>
+            {record.description}
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Rules</h1>
-            {Array.isArray(record.rules) ? (
-              <ul className='list-disc list-inside text-lg'>
-                {record.rules.map((rule, index) => (
-                  <li key={index}>{rule}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className='text-lg'>{record.rules}</p>
-            )}
+            <h1 className='text-2xl text-[#ff2975]'>Time</h1>
+            {record.time}
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Structure</h1>
-            {record.structure ? (
-              <ul className='list-disc list-inside text-lg flex flex-col gap-2'>
-                <li>
-                  <span className='text-lg'>{record.structure.round1.name}</span>
-                  <p className='text-lg inline-block ml-2'>{record.structure.round1.description}</p>
-                </li>
-                <li>
-                  <span className='text-lg'>{record.structure.finalRound.name}</span>
-                  <p className='text-lg inline-block ml-2'>{record.structure.finalRound.description}</p>
-                </li>
-              </ul>
-            ) : (
-              <p className='text-lg'>{record.structure}</p>
-            )}
+            <h1 className='text-2xl text-[#ff2975]'>Date</h1>
+            {record.date}
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Judging Criteria</h1>
-            {Array.isArray(record.judgingCriteria) ? (
-              <ul className='list-disc list-inside text-lg'>
-                {record.judgingCriteria.map((criteria, index) => (
-                  <li key={index}>{criteria}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className='text-lg'>{record.judgingCriteria}</p>
-            )}
+            <h1 className='text-2xl text-[#ff2975]'>Venue</h1>
+            {record.venue}
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Prizes</h1>
-            {Array.isArray(record.prizes) ? (
-              <ul className='list-disc list-inside text-lg'>
-                {record.prizes.map((prize, index) => (
-                  <li key={index}>{prize}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className='text-lg'>{record.prizes}</p>
-            )}
+            <h1 className='text-2xl text-[#ff2975]'>Team Size</h1>
+            {record.teamSize}
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Important Note</h1>
-            {Array.isArray(record.importantNote) ? (
-              <ul className='list-disc list-inside text-lg'>
-                {record.importantNote.map((note, index) => (
-                  <li key={index}>{note}</li>
-                ))}
-              </ul>
-            ) : (
-              <p className='text-lg'>{record.importantNote}</p>
-            )}
+            <h1 className='text-2xl text-[#ff2975]'>For additional details, contact</h1>
+            {record.contact}
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 

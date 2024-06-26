@@ -12,7 +12,7 @@ const Home = () => {
         <div className='-translate-y-20'>
             <Navbar />
             <div className='flex flex-col text-center pt-1'>
-                <h1 className='md:text-[80px] sm:text-[70px] font-bold text-purple-700'>HACKATHON</h1>
+                <h1 className='md:text-[80px] text-[70px] font-bold text-purple-700'>HACKATHON</h1>
                 <div className='flex flex-col gap-3 translate-y-2'>
                     <h2 className='text-xl font-medium text-white'>HACK-IN-FINITE TIME</h2>
                     <h2 className='text-xl font-medium text-white'>20-21 June 2024</h2>

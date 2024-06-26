@@ -1,122 +1,102 @@
 [
-    {   
-        "id": 1,
-        "name": "DSA Competition",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "time": "10.00 AM - 11.30 AM",
-        "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-        "venue": "Auditorium",
-        "teamSize": "4",
-        "contact": "1234567890"
-    },
-    {
-        "id": 2,
-        "name": "Blind Code",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "time": "10.00 AM - 11.30 AM",
-        "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-        "venue": "Auditorium",
-        "teamSize": "4",
-        "contact": "1234567890"
-    },
-    {
-        "id": 3,
-        "name": "WebDev Competition",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-        "time": "11.30 AM - 1.30 PM",
-        "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-        "venue": "Auditorium",
-        "teamSize": "4",
-        "contact": "1234567890"
-    },
-    {
-      "id": 4,
-      "name": "React Competition",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "11.30 AM - 1.30 PM",
+  {   
+      "id": 1,
+      "name": "DSA Competition",
+      "description": "It is a thrilling event featuring six coding questions: two easy, two medium, and two hard, all in a single round. Open exclusively to college students who register before the deadline. In case of ties, the time taken to solve the problems will determine the winner. Participants can code in C++, Java, or Python.",
+      "time": "10.00 AM - 11.30 AM",
       "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
+      "venue": "SSCBS",
       "teamSize": "4",
       "contact": "1234567890"
-    },
-    {
-      "id": 5,
-      "name": "Tech Charades",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "1.00 PM - 2.00 PM",
+  },
+  {
+      "id": 2,
+      "name": "Blind Code",
+      "description": "It is an intriguing and challenging competition for competitive programming enthusiasts, adding a unique twist by requiring participants to solve coding questions without initially seeing the code on their screens. This element of mystery and excitement pushes competitors to rely on their memory, logic, and problem-solving skills. Participants can make their screen visible by accepting a time penalty, adding a strategic layer to the challenge.",
+      "time": "10.00 AM - 11.30 AM",
       "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
+      "venue": "SSCBS",
       "teamSize": "4",
       "contact": "1234567890"
-    },
-    {
-      "id": 6,
-      "name": "Tech Quiz",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "1.00 PM - 2.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    },
-    {
-      "id": 7,
-      "name": "Tech Quiz",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "1.00 PM - 2.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    },
-    {
-      "id": 8,
-      "name": "Debug-a-thon",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "1.00 PM - 2.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    },
-    {
-      "id": 9,
-      "name": "Design Jam",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "1.00 PM - 2.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    },
-    {
-      "id": 10,
-      "name": "Mystery Function",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "2.00 PM - 3.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    },
-    {
-      "id": 11,
-      "name": "Guess the Prompt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "2.00 PM - 3.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    },
-    {
-      "id": 12,
-      "name": "Treasure Hunt",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-      "time": "3.00 PM - 5.00 PM",
-      "date": "31st August (1st Slot) and 1st September (2nd Slot)",
-      "venue": "Auditorium",
-      "teamSize": "4",
-      "contact": "1234567890"
-    }
+  },
+  {
+    "id": 3,
+    "name": "React Competition",
+    "description": "It is a two-round event designed to evaluate participants' web development skills. In the first round, participants face 30 multiple-choice questions testing their knowledge of Frontend, Internet Technologies, and Backend, where speed and accuracy determine who advances. The second round challenges participants to develop a website based on a theme provided by us, requiring them to present a functional prototype demonstrating at least 40% completion of the project using ReactJS.",
+    "time": "11.30 AM - 1.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 4,
+    "name": "Tech Charades",
+    "description": "It is an engaging and interactive competition where participants demonstrate their technical knowledge and creativity. Participants are divided into teams, and each team member takes turns acting out technical terms, concepts, or popular tech-related phrases without speaking, while their teammates try to guess the term within a set time limit. The challenge lies in conveying complex technical ideas through gestures and body language alone. The team that correctly guesses the most terms wins the competition.",
+    "time": "1.00 PM - 2.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 5,
+    "name": "Tech Quiz",
+    "description": "It is a dynamic event where participants demonstrate their knowledge across various facets of technology through rounds of questions spanning programming languages, algorithms, software development methodologies, and emerging technologies. Whether competing individually or in teams, participants will engage in multiple-choice, short-answer, and problem-solving challenges to showcase their expertise.",
+    "time": "1.00 PM - 2.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 6,
+    "name": "Debug-a-thon",
+    "description": "It is an exhilarating competition designed to challenge participants' problem-solving and debugging skills. Participants are tasked with identifying and fixing a series of bugs within a provided website. The competition involves resolving syntax and logic errors, testing and correcting regular expressions, and optimizing the website's responsiveness across different devices and screen sizes.",
+    "time": "1.00 PM - 2.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 7,
+    "name": "Design Jam",
+    "description": "This competition is a dynamic challenge where web and graphic designers collaborate intensively to create innovative solutions within a set timeframe. Participants leverage their expertise in UI/UX design, typography, color theory, and digital artistry to craft visually appealing websites or graphics that address a specific theme or problem statement. Judges evaluate entries based on criteria such as creativity, functionality, user experience, and adherence to the brief, fostering creativity, teamwork, and skill development in both web and graphic design disciplines.",
+    "time": "1.00 PM - 2.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 8,
+    "name": "Mystery Function",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+    "time": "2.00 PM - 3.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "Auditorium",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 9,
+    "name": "Guess the Prompt",
+    "description": "This competition is an intriguing event that challenges participants to deduce the underlying prompt or problem statement based on the given output or behavior of a program. Participants will be presented with coded solutions or program outputs without the accompanying problem statement. Their task is to reverse-engineer and accurately guess the original prompt that led to the creation of the provided code or output. This competition tests analytical and problem-solving skills while encouraging critical and creative thinking about programming challenges.",
+    "time": "2.00 PM - 3.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  },
+  {
+    "id": 10,
+    "name": "Treasure Hunt",
+    "description": "This event unfolds as an exhilarating adventure where teams delve into clues and challenges intricately woven around an amazing theme. Participants embark on a quest testing their problem-solving skills, creativity, and teamwork. Armed with clues, riddles, and puzzles strategically scattered throughout a designated area or virtually online, participants decipher each challenge in pursuit of the ultimate treasure. This event promises excitement, suspense, strategic thinking, collaboration, and quick decision-making as teams race against the clock to unravel the mystery of the theme-based treasure hunt.",
+    "time": "3.00 PM - 5.00 PM",
+    "date": "31st August (1st Slot) and 1st September (2nd Slot)",
+    "venue": "SSCBS",
+    "teamSize": "4",
+    "contact": "1234567890"
+  }
 ]

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Sponsors = () => {
   return (
     <div className='h-screen w-full'>
-        <div className='flex justify-center items-center md:translate-y-64 translate-y-[1000px]'>
+        <div className='flex justify-center items-center md:translate-y-64 translate-y-[1200px]'>
             <div className="card1 min-h-[40vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold">
                 <div className='flex flex-col gap-2'>
                     <h1 className='text-3xl text-pink-600'>Brought to you by: </h1>

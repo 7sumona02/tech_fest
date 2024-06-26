@@ -20,7 +20,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
         </Link>
 
         <div>
-          <span className=" select-none pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[rgb(255,211,25)] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-16">
+          <span className=" select-none pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[rgb(255,211,25)] via-[#ff2975] to-[#8c1eff] bg-clip-text md:text-center ml-5 text-nowrap text-6xl md:text-7xl font-bold leading-none tracking-tighter text-transparent -translate-y-16">
           {record.name}
           </span>
         </div>
@@ -64,7 +64,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
 
           <div className='flex flex-col gap-2'>
             <Link href='https://magicui.design/'>
-              <button className='event px-8 py-2 text-xl'
+              <button className='event px-8 py-2 md:text-xl text-base'
               >Register now
               </button>
             </Link>

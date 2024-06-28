@@ -11,7 +11,7 @@ const Home = () => {
       <div className="background h-screen w-full">
         <div className='-translate-y-20'>
             <Navbar />
-            <div className='flex flex-col text-center pt-1'>
+            <div className='flex flex-col text-center md:pt-7 pt-1'>
                 <h1 className='md:text-[80px] text-[60px] font-bold text-purple-700'>HACKATHON</h1>
                 <div className='flex flex-col gap-3 translate-y-2'>
                     <h2 className='md:text-xl text-sm font-medium text-white'>HACK-IN-FINITE TIME</h2>

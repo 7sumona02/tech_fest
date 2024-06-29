@@ -8,9 +8,10 @@ import Button from '@mui/material/Button';
 
 const Faq = () => {
   return (
-    <div className='bg-black h-screen w-full flex flex-col justify-center items-center'>
-        <h1 className='text-4xl font-bold text-center text-zinc-200 -translate-y-20'>FAQs</h1>
+    <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-[500px] pb-[600px] md:pt-[100px]'>
+      
         <div className='-translate-y-[80px]'>
+            <h1 className='text-4xl font-bold text-center text-zinc-200 pt-[500px]'>FAQs</h1>
             <div className='w-20 h-2 bg-violet-600 rounded-full -rotate-2'></div>
             <div className='w-20 h-2 bg-pink-600 rounded-full -rotate-2'></div>
         </div>

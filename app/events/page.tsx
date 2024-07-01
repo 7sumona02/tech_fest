@@ -8,14 +8,11 @@ import eventData from './records.json'
 const Page = () => {
 
   return (
-    <div className='bg-black fixed h-screen w-full flex flex-col justify-center items-center  events select-none'>
-      <RetroGrid className=' w-full h-full' />
+    <div className='bg-black Eventbg h-screen w-full flex flex-col justify-center items-center  events select-none fixed'>
 
-      <div className=' md:translate-x-0 md:translate-y-60 pt-96 md:pt-0'>
-        <Link href='/'>
+      <Link href='/' className='absolute top-14 -translate-x-5'>
           <Footer />
-        </Link>
-      </div>
+      </Link>
 
       <div className="relative flex  items-center justify-center overflow-hidden rounded-lg p-20 md:shadow-xl bg-transparent pt-56">
         <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
@@ -37,7 +34,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='pt-24 '>
+      <div className='pt-32 '>
         <VelocityScroll
           text="Register now"
           default_velocity={5}

@@ -11,16 +11,16 @@ const Home = () => {
       <div className="background h-screen w-full">
         <div className='-translate-y-20'>
             <Navbar />
-            <div className='flex flex-col text-center md:pt-7 pt-1'>
-                <h1 className='md:text-[80px] text-[60px] font-bold text-purple-700'>HACKATHON</h1>
-                <div className='flex flex-col gap-3 translate-y-2'>
-                    <h2 className='md:text-xl text-sm font-medium text-white'>HACK-IN-FINITE TIME</h2>
-                    <h2 className='md:text-xl text-sm font-medium text-white'>20-21 June 2024</h2>
-                    <h2 className='md:text-xl text-sm font-medium text-white'>24 Hour Hackathon</h2>
+            <div className='flex flex-col text-center -mt-7'>
+                <h1 className='md:text-[80px] text-[60px] font-bold text-purple-700'>Tech Fest</h1>
+                <div className='flex flex-col gap-3 translate-y-2 justify-center items-center'>
+                    <h2 className='md:text-xl text-sm font-medium text-white'>ACM, SSCBS</h2>
+                    <h2 className='md:text-xl text-sm font-medium text-white'>31st August 2024</h2>
+                    <h2 className='md:text-xl text-sm font-medium text-white md:w-[300px]'>The ultimate celebration for tech-enthusiast across various institutions</h2>
                 </div>
             </div>
 
-            <div className='flex flex-col justify-center items-center gap-4 translate-y-32'>
+            {/* <div className='flex flex-col justify-center items-center gap-4 translate-y-32'>
               <div>
 
               <Link href="https://react-icons.github.io/react-icons/search/#q=link"><button
@@ -36,7 +36,7 @@ const Home = () => {
       alt="icon"
     /> Apply with Devfolio</span
   >
-</button></Link>
+              </button></Link>
 
               </div>
               <div>
@@ -47,10 +47,10 @@ const Home = () => {
 </button></Link>
 
               </div>
-            </div>
+            </div> */}
 
             <div>
-              <div className='pt-[34vh] text-white'>
+              <div className='pt-[20vh] text-white'>
                 <Countdown />
               </div>
               <h1 className="text-2xl text-center text-white pt-6">REMAINING!</h1>

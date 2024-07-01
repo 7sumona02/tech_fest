@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-transparent'>
         <button className="-translate-y-6 ml-[94vw]">
             <div className="spinner">
             <div></div>

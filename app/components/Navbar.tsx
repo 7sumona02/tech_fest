@@ -9,11 +9,14 @@ const Navbar = () => {
     <div>
         <div className="flex justify-between items-center text-white px-20">
           <div className='flex justify-center items-center gap-6'>
-            <Link href="https://discord.com/channels/@me"     className='text-white'>
-              <Image src="/Instagram.svg" alt="Instagram" width={24} height={24} className='invert' />
+            <Link href="https://www.instagram.com/sscbsacm/"     className='text-white'>
+              <Image src="/Instagram.svg" alt="Instagram" width={32} height={32} className='invert' />
             </Link>
-            <Link href="https://discord.com/channels/@me"     className='text-white'>
-              <Image src="/Linkedin.svg" alt="Linkedin" width={24} height={24} className='invert' />
+            <Link href="https://www.linkedin.com/in/acm-sscbs/"     className='text-white'>
+              <Image src="/Linkedin.svg" alt="Linkedin" width={32} height={32} className='invert' />
+            </Link>
+            <Link href="mailto:acm.sscbs@gmail.com" className='text-white'>
+              <Image src="/Gmail.svg" alt="Linkedin" width={40} height={40} className='invert' />
             </Link>
           </div>
           <div>

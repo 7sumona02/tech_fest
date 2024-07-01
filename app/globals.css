@@ -77,7 +77,14 @@
 
 
   .background{
-    background-image: url('/Background.svg');
+    background-image: url('/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .Eventbg{
+    background-image: url('/EventBackground.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;

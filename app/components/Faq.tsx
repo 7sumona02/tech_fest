@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 const Faq = () => {
   return (
-    <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-[500px] pb-[600px] md:pt-[100px]'>
+    <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-[700px] pb-[600px] md:pt-[100px]'>
       
         <div className='-translate-y-[80px]'>
             <h1 className='text-4xl font-bold text-center text-zinc-200 pt-[500px]'>FAQs</h1>

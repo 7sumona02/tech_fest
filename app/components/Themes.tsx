@@ -2,12 +2,12 @@ import React from 'react'
 
 const Themes = () => {
   return (
-    <div className='bg-black h-screen w-full flex justify-center items-center'>
+    <div className='bg-black h-screen w-full flex justify-center items-center md:pt-0 pt-72'>
         <div>
-            <h1 className='text-4xl font-bold text-center text-zinc-200 -translate-y-44'>Themes</h1>
+            <h1 className='text-6xl font-bold text-center text-zinc-200 -translate-y-44'>Themes</h1>
             <div className='-translate-y-44 flex flex-col justify-center items-center'>
-                <div className='w-44 h-2 bg-violet-600 rounded-full -rotate-2'></div>
-                <div className='w-44 h-2 bg-pink-600 rounded-full -rotate-2'></div>
+                <div className='w-72 h-2 bg-violet-600 rounded-full -rotate-2'></div>
+                <div className='w-72 h-2 bg-pink-600 rounded-full -rotate-2'></div>
             </div>
         <div className="container -translate-y-12">
   <div data-text="Finance" className="glass -rotate-12">

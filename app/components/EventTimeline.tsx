@@ -2,7 +2,7 @@ import React from 'react'
 
 const EventTimeline = () => {
   return (
-    <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-[700px] md:pt-0'>
+    <div className='bg-black h-screen w-full flex flex-col justify-center items-center pt-[900px] md:pt-0'>
         <div>
             <h1 className='text-6xl font-bold text-center text-zinc-200'>Timeline</h1>
             <div className='flex flex-col justify-center items-center'>

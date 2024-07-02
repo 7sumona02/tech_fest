@@ -26,7 +26,6 @@ const page = () => {
       <Home />
       <About />
       <Sponsors />
-      <Domains />
       <Themes />
       <Prize />
       <TimeLine />

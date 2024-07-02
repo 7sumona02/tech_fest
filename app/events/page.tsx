@@ -20,7 +20,7 @@ const Page = () => {
         </span>
       </div>
 
-      <div className='translate-y-20'>
+      <div className='translate-y-14'>
         <div className='grid md:grid-cols-3 md:gap-4 grid-cols-2 gap-6'>
           {eventData.map((event) => (
             <div key={event.id} className='linkcard'>

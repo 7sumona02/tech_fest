@@ -2,7 +2,7 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <div className='bg-black h-screen w-full flex flex-col justify-center items-center md:pt-44 pt-72'>
+    <div className='bg-black h-screen w-full flex flex-col justify-center items-center md:pt-44 pt-[800px]'>
       <h1 className='text-6xl font-bold text-center text-zinc-200 -translate-y-20'>Important <br /> Dates</h1>
         <div className='-translate-y-[80px]'>
             <div className='w-80 h-2 bg-violet-600 rounded-full -rotate-2'></div>

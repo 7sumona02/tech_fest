@@ -11,7 +11,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
   }
 
   return (
-    <div className="  relative w-full bg-black bg-grid-white/[0.1]  flex items-center justify-center eventpage select-none">
+    <div className="  relative w-full bg-black bg-grid-white/[0.1]  flex items-center justify-center eventpage ">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       <div className='h-full w-full text-white flex flex-col gap-10 items-center justify-center text-2xl pt-16 pb-20'>
 
@@ -27,38 +27,38 @@ const Page = ({ params }: { params: { eventId: string } }) => {
 
         <div className='flex flex-col justify-center  items-center gap-16 text-white max-w-[40vw] pt-10'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Description</h1>
-            {record.description}
+            <h1 className='text-3xl text-[#ff2975]'>Description</h1>
+            <p className='font-sans text-xl'>{record.description}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Time</h1>
-            {record.time}
+            <h1 className='text-3xl text-[#ff2975]'>Time</h1>
+            <p className='font-sans text-xl'>{record.time}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Date</h1>
-            {record.date}
+            <h1 className='text-3xl text-[#ff2975]'>Date</h1>
+            <p className='font-sans text-xl'>{record.date}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Venue</h1>
-            {record.venue}
+            <h1 className='text-3xl text-[#ff2975]'>Venue</h1>
+            <p className='font-sans text-xl'>{record.venue}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>Team Size</h1>
-            {record.teamSize}
+            <h1 className='text-3xl text-[#ff2975]'>Team Size</h1>
+            <p className='font-sans text-xl'>{record.teamSize}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-2xl text-[#ff2975]'>For additional details, contact</h1>
-            {record.contact}
+            <h1 className='text-3xl text-[#ff2975]'>For additional details, contact</h1>
+            <p className='font-sans text-xl'>{record.contact}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import ReactIcon from './ReactIcon'
 import FigmaIcon from './FigmaIcon'
 import CoinIcon from './CoinIcon'
+import CodeIcon from './CodeIcon'
 
 const Themes = () => {
   return (
@@ -22,6 +23,9 @@ const Themes = () => {
   </div>
   <div data-text="WebDev"  className="glass rotate-6">
     <ReactIcon />
+  </div>
+  <div data-text="Tech" className="glass -rotate-12">
+    <CodeIcon />
   </div>
   <div data-text="Design" className="glass rotate-[25]">
     <FigmaIcon />

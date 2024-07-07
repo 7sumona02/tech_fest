@@ -32,7 +32,7 @@ const page = () => {
       <Venue />
       <EventTimeline />
       <Faq />
-      <div className='-translate-x-10 md:translate-x-0'>
+      <div className='-translate-x-10 md:translate-x-0 md:pt-0 pt-20'>
         <Link href='#home'>
           <Footer />
         </Link>

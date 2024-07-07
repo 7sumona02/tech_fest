@@ -77,7 +77,7 @@
 
 
   .background{
-    background-image: url('/Background.jpg');
+    background-image: url('/Background.svg');
     background-size: cover;
     background-position: center;
     height: 100vh;

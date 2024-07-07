@@ -12,11 +12,11 @@ const Home = () => {
         <div className='-translate-y-20'>
             <Navbar />
             <div className='flex flex-col text-center -mt-7'>
-                <h1 className='md:text-[80px] text-[60px] font-bold text-purple-700'>Tech Fest</h1>
+                <h1 className='md:text-[200px] text-[60px] font-bold text-purple-400'>Tech Fest</h1>
                 <div className='flex flex-col gap-3 translate-y-2 justify-center items-center'>
-                    <h2 className='md:text-xl text-sm font-medium text-white'>ACM, SSCBS</h2>
-                    <h2 className='md:text-xl text-sm font-medium text-white'>31st August 2024</h2>
-                    <h2 className='md:text-xl text-sm font-medium text-white md:w-[300px]'>The ultimate celebration for tech-enthusiast across various institutions</h2>
+                    <h2 className='md:text-3xl text-xl font-medium text-white'>ACM, SSCBS</h2>
+                    <h2 className='md:text-3xl text-xl font-medium text-white'>31st August 2024</h2>
+                    <h2 className='md:text-xl text-sm font-medium text-white md:max-w-lg'>The ultimate celebration for tech-enthusiast across various institutions</h2>
                 </div>
             </div>
 
@@ -50,10 +50,10 @@ const Home = () => {
             </div> */}
 
             <div>
-              <div className='pt-[20vh] text-white'>
+              <div className='md:pt-[10vh] text-white pt-[20vh]'>
                 <Countdown />
               </div>
-              <h1 className="text-2xl text-center text-white pt-6">REMAINING!</h1>
+              <h1 className="text-xl text-center text-white pt-6">REMAINING!</h1>
             </div>
         </div>
       </div>

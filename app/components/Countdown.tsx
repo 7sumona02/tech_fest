@@ -17,7 +17,7 @@ function MyTimer(props: Props) {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <div style={{ fontSize: '60px' }}>
+      <div style={{ fontSize: '30px', fontFamily: 'sans-serif' }}>
         <span className='time'>{days}</span>:<span className='time'>{hours}</span>:<span className='time'>{minutes}</span>:<span className='time'>{seconds}</span>
       </div>
     </div>

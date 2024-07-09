@@ -162,7 +162,13 @@
   }
   
   
-  
+  .pixel {
+    font-family: var(--pixel-font);
+  }
+
+  .square {
+    font-family: var(--square-font);
+  }
   
   .sponsors{
     background-image: url('/Sponsors.svg');

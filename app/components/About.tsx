@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const About = () => {
   return (
-    <div className='bg-black h-screen w-full pt-20'>
+    <div className='   h-screen w-full bg-black pt-20'>
         <div className='flex justify-center items-center translate-y-64'>
             <div className="card min-h-[50vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold">
                 <h1 className='md:text-6xl text-4xl text-pink-600'>About Tech Fest</h1>

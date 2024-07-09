@@ -12,6 +12,7 @@ import EventTimeline from './components/EventTimeline'
 import Link from 'next/link'
 import { Grid } from './components/Grid'
 import Venue from './components/Venue'
+import { TracingBeam } from '@/components/ui/TraceBeam'
 
 
 interface MapProps {
@@ -21,11 +22,14 @@ interface MapProps {
 }
 
 const page = () => {
-  return (
-    <div className='landing bg-black select-none'>
+  return (          
+    
+    <div className='landing  select-none '>
+    
+
       <Home />
       <About />
-      <Sponsors />
+      {/* <Sponsors /> */}
       <Themes />
       <Prize />
       <TimeLine />
@@ -38,6 +42,7 @@ const page = () => {
         </Link>
       </div>
     </div>
+
   )
 }
 

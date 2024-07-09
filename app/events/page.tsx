@@ -1,5 +1,4 @@
 import React from 'react'
-import RetroGrid from "@/components/magicui/retro-grid";
 import Link from 'next/link';
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 import Footer from '../components/Footer';

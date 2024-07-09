@@ -8,7 +8,7 @@ const Timeline = () => {
             <div className='w-80 h-2 bg-violet-600 rounded-full -rotate-2'></div>
             <div className='w-80 h-2 bg-pink-600 rounded-full -rotate-2'></div>
         </div>
-        <div className='card py-10'>
+        <div className='card py-10 font-sans'>
         <ul className="timeline timeline-vertical -translate-x-24">
   <li>
     <div className="timeline-middle">

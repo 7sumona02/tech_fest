@@ -84,7 +84,7 @@
   }
 
   .Eventbg{
-    background-image: url('/EventBackground.jpg');
+    background-image: url('/EventBackground.svg');
     background-size: cover;
     background-position: center;
     height: 100vh;

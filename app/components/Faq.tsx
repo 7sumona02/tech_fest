@@ -15,7 +15,7 @@ const Faq = () => {
             <div className='w-20 h-2 bg-violet-600 rounded-full -rotate-2'></div>
             <div className='w-20 h-2 bg-pink-600 rounded-full -rotate-2'></div>
         </div>
-        <div className='border-2 border-white p-1'>
+        <div className='border-2 border-white p-1 font-sans'>
             <div className='flex flex-col gap-1 sm:max-w-[60vw]'>
             <Accordion className='bg-black text-white border-2 border-white'>
         <AccordionSummary

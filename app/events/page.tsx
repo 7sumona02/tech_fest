@@ -21,7 +21,7 @@ const Page = () => {
       </div>
 
       <div className='translate-y-14'>
-        <div className='grid md:grid-cols-3 md:gap-4 grid-cols-2 gap-6'>
+        <div className='grid md:grid-cols-3 md:gap-4 grid-cols-2 gap-6 font-sans'>
           {eventData.map((event) => (
             <div key={event.id} className='linkcard'>
               <div className="notification flex items-center justify-center">

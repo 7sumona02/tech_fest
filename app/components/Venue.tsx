@@ -11,9 +11,9 @@ const Venue = () => {
             <div className='w-36 h-2 bg-violet-600 rounded-full -rotate-2'></div>
             <div className='w-36 h-2 bg-pink-600 rounded-full -rotate-2'></div>
           </div>
-          <p className='text-left text-2xl text-wrap text-zinc-200'>4th Floor</p>
-          <p className='text-left text-2xl text-wrap text-zinc-200'>Shaheed Sukhdev College of Business Studies</p>
-          <p className='text-left text-2xl text-wrap text-zinc-200'>Rohini, Delhi</p>
+          <p className='text-left text-2xl text-wrap text-zinc-200 font-sans'>4th Floor</p>
+          <p className='text-left text-2xl text-wrap text-zinc-200 font-sans'>Shaheed Sukhdev College of Business Studies</p>
+          <p className='text-left text-2xl text-wrap text-zinc-200 font-sans'>Rohini, Delhi</p>
         </div>
       </div>
     </div>

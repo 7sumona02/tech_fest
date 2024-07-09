@@ -63,7 +63,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
           </div>
 
           <div className='flex flex-col gap-2'>
-            <Link href='https://magicui.design/'>
+            <Link href=''>
               <button className='event px-8 py-2 md:text-xl text-base'
               >Register now
               </button>

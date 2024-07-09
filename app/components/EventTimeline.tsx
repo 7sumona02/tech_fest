@@ -10,7 +10,7 @@ const EventTimeline = () => {
                 <div className='w-72 h-2 bg-pink-600 rounded-full -rotate-2'></div>
             </div>
         </div>
-        <div className='translate-y-20'>
+        <div className='translate-y-20 font-sans'>
         <ul className="timeline timeline-vertical">
   <li>
     <div className="timeline-start text-white max-w-[14vw] text-xl md:max-w-xl">10:00AM - 11:30AM</div>

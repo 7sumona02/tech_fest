@@ -6,7 +6,7 @@ import CodeIcon from './CodeIcon'
 
 const Themes = () => {
   return (
-    <div className='bg-black h-screen w-full flex justify-center items-center md:pt-0 pt-[1700px]'>
+    <div className='bg-black h-screen w-full flex justify-center items-center md:pt-32 pt-[1700px]'>
         <div>
             <h1 className='text-6xl font-bold text-center text-zinc-200 -translate-y-44'>Themes</h1>
             <div className='-translate-y-44 flex flex-col justify-center items-center'>

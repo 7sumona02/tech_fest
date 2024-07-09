@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div className='   h-screen w-full bg-black pt-20'>
         <div className='flex justify-center items-center translate-y-64'>
-            <div className="card min-h-[50vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold">
-                <h1 className='md:text-6xl text-4xl text-pink-600'>About Tech Fest</h1>
-                <div className='pt-5 md:text-2xl text-xl font-sans'>
+            <div className="card min-h-[50vh] w-[60vw] flex flex-col justify-center px-16 py-10 font-semibold shadow-2xl shadow-zinc-900">
+                <h1 className='text-8xl font-bold square  text-pink-600'>About Tech Fest</h1>
+                <div className='pt-5 md:text-2xl text-xl text-gray-200'>
                     <span>Join us at our vibrant tech fest, where innovation meets competition. Featuring nine thrilling events, participants will engage in challenges ranging from coding marathons and design jams to treasure hunts and technical charades.</span>
                     <span><TypeAnimation
                         sequence={[

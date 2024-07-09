@@ -26,7 +26,7 @@ export default function RetroGrid({ className }: { className?: string }) {
       </div>
 
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black   via-transparent to-purple-700 to-70%  dark:from-black" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black   via-transparent to-purple-600 to-70%  dark:from-black" />
     </div>
   );
 }

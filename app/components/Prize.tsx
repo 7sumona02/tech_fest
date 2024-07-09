@@ -20,13 +20,13 @@ const Prize = () => {
                 <div>
                     <h1 className='text-2xl font-bold text-yellow-500'>2nd Prize:</h1>
                     <div className='flex flex-col gap-2 pt-2 text-lg'>
-                        <p className='font-medium '>Cash prize of Rs. 1,000 and a Certificate of Achievement"</p>
+                        <p className='font-medium '>Cash prize of Rs. 1,000 and a Certificate of Achievement</p>
                     </div>
                 </div>
                 <div>
                     <h1 className='text-2xl font-bold text-yellow-500'>3rd Prize:</h1>
                     <div className='flex flex-col gap-2 pt-2 text-lg'>
-                        <p className='font-medium '>Cash prize of Rs. 500 and a <br /> Certificate of Achievement"</p>
+                        <p className='font-medium '>Cash prize of Rs. 500 and a <br /> Certificate of Achievement</p>
                     </div>
                 </div>
             </div>

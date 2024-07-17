@@ -12,11 +12,11 @@ const Home = () => {
         <div className='-translate-y-20'>
             <Navbar />
             <div className='flex flex-col text-center -mt-7'>
-                <h1 className='md:text-[200px] text-[60px] font-bold text-pink-600'>Tech Fest</h1>
+                <h1 className='md:text-[200px] text-[80px] font-bold text-pink-600'>Tech Fest</h1>
                 <div className='flex flex-col gap-3 translate-y-2 justify-center items-center font-sans'>
-                    <h2 className='md:text-3xl text-xl font-medium text-white'>ACM,   SSCBS</h2>
-                    <h2 className='md:text-3xl text-xl font-medium text-white'>31st August 2024</h2>
-                    <h2 className='md:text-xl text-sm font-medium text-white md:max-w-lg max-w-sm'>The ultimate celebration for tech-enthusiast across various institutions</h2>
+                    <h2 className='md:text-3xl text-2xl font-medium text-white'>ACM,   SSCBS</h2>
+                    <h2 className='md:text-3xl text-2xl font-medium text-white'>31st August 2024</h2>
+                    <h2 className='text-xl font-medium text-white md:max-w-lg max-w-xs'>The ultimate celebration for tech-enthusiast across various institutions</h2>
                 </div>
             </div>
             
@@ -50,11 +50,11 @@ const Home = () => {
               </div>
             </div> */}
 
-            <div>
+            <div className='translate-y-[200px]'>
               <div className='md:pt-[8vh] text-white pt-[20vh]'>
                 <Countdown />
               </div>
-              <h1 className="text-2xl text-center text-white pt-6 shadow-lg shadow-pink-500 md:translate-y-3 translate-y-12">REMAINING!</h1>
+              <h1 className="text-2xl text-center text-white pt-6">REMAINING!</h1>
             </div>
         </div>
       </div>

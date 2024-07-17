@@ -27,37 +27,37 @@ const Page = ({ params }: { params: { eventId: string } }) => {
 
         <div className='flex flex-col justify-center  items-center gap-16 text-white max-w-[40vw] pt-10'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl text-[#ff2975]'>Description</h1>
+            <h1 className='text-3xl font-medium text-[#ff2975]'>Description</h1>
             <p className='font-sans text-xl'>{record.description}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl text-[#ff2975]'>Time</h1>
+            <h1 className='text-3xl font-medium text-[#ff2975]'>Time</h1>
             <p className='font-sans text-xl'>{record.time}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl text-[#ff2975]'>Date</h1>
+            <h1 className='text-3xl font-medium text-[#ff2975]'>Date</h1>
             <p className='font-sans text-xl'>{record.date}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl text-[#ff2975]'>Venue</h1>
+            <h1 className='text-3xl font-medium text-[#ff2975]'>Venue</h1>
             <p className='font-sans text-xl'>{record.venue}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl text-[#ff2975]'>Team Size</h1>
+            <h1 className='text-3xl font-medium text-[#ff2975]'>Team Size</h1>
             <p className='font-sans text-xl'>{record.teamSize}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>
 
           <div className='flex flex-col gap-2'>
-            <h1 className='text-3xl text-[#ff2975]'>For additional details, contact</h1>
+            <h1 className='text-3xl font-medium text-[#ff2975]'>For additional details, contact</h1>
             <p className='font-sans text-xl'>{record.contact}</p>
             <div className='h-[0.2px] w-[50vw] translate-y-2 bg-[rgb(255,211,25)]'></div>
           </div>

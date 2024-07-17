@@ -10,18 +10,18 @@ const Page = () => {
   return (
     <div className='bg-black Eventbg h-screen w-full flex flex-col justify-center items-center  events select-none fixed'>
 
-      <Link href='/' className='absolute top-14 -translate-x-5'>
+      <Link href='/' className='absolute top-14 -translate-x-10'>
           <Footer />
       </Link>
 
-      <div className="relative flex  items-center justify-center overflow-hidden rounded-lg p-20  bg-transparent pt-56">
+      <div className="relative flex  items-center justify-center overflow-hidden rounded-lg p-20  bg-transparent pt-56 md:pt-20">
         <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent ">
           Events
         </span>
       </div>
 
-      <div className='translate-y-14'>
-        <div className='grid md:grid-cols-3 md:gap-4 grid-cols-2 gap-6 font-sans'>
+      <div className='translate-y-[400px] md:translate-y-6'>
+        <div className='grid md:grid-cols-3 md:gap-4 grid-cols-1 gap-6 font-sans'>
           {eventData.map((event) => (
             <div key={event.id} className='linkcard'>
               <div className="notification flex items-center justify-center">
@@ -34,7 +34,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='pt-32 '>
+      <div className='translate-y-[500px] md:translate-y-32'>
         <VelocityScroll
           text="Register now"
           default_velocity={5}

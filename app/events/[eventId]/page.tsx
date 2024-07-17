@@ -11,7 +11,7 @@ const Page = ({ params }: { params: { eventId: string } }) => {
   }
 
   return (
-    <div className="  relative w-full bg-black  flex items-center justify-center  ">
+    <div className="relative w-full bg-black bg-grid-white/[0.2]  flex items-center justify-center eventpage ">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       <div className='h-full w-full text-white flex flex-col gap-10 items-center justify-center text-2xl pt-16 pb-20'>
 

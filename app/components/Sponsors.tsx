@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Sponsors = () => {
   return (
-    <div className='h-screen w-full'>
+    <section className='h-screen w-full' id='sponsors'>
         <div className='flex justify-center items-center md:translate-y-64 translate-y-[800px]'>
             <div className="card1 min-h-[40vh] w-[60vw] flex flex-col justify-center px-16 py-10 text-2xl font-semibold font-sans">
                 <div className='flex flex-col gap-2'>
@@ -43,7 +43,7 @@ const Sponsors = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -10,7 +10,7 @@ const Sponsors = () => {
                     <h1 className='md:text-6xl text-4xl text-pink-600'>Brought to you by: </h1>
                     <h1 className='md:text-2xl text-xl font-extrabold pt-2'>Association for Computing Machinery  (ACM)</h1>
                     
-                    <h1 className='text-2xl'>Shaheed Sukhdev College of Business Studie</h1>
+                    <h1 className='text-2xl'>Shaheed Sukhdev College of Business Studies</h1>
                 </div>
                 <div className='flex md:flex-row flex-col items-center gap-10 pt-20'>
                     <div className='flex flex-col md:gap-4 gap-2 justify-center items-center'>
